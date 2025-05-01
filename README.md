@@ -9,5 +9,7 @@ Lexer - Breaks down string input into a series of tokens (lexemes)
 Parser - Reads through token order and makes sure that it's syntactically correct
 Interpret = Runs the code 
 
+I specifically wrote the Lexer, Parser, Interpreter, TokenManager, and TextManager classes.
+
 KNOWN BUGS: Loops don't work properly and possibly conditionals, and it's most likely because booleans are meant to be a built-in object. 
 The Iterator method times() doesn't work yet, either.
